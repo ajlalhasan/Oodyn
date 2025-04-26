@@ -96,9 +96,9 @@
         'wizard/account_lock_date_views.xml',
         'wizard/import_bank_statement_views.xml',
     ],
-    # 'external_dependencies': {
-    #         'python': ['openpyxl', 'ofxparse', 'qifparse']
-    #     },
+    'external_dependencies': {
+            'python': ['openpyxl', 'ofxparse']
+        },
     'assets': {
         'web.assets_backend': [
             'base_accounting_kit/static/src/scss/style.scss',
